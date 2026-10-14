@@ -319,7 +319,7 @@
       .then(function () { l2.classList.add('caret'); return typeInto(l2, '[status] ', 'dim', 26); })
       .then(function () { return typeInto(l2, 'PRONTO', 'ok', 40); })
       .then(function () { l2.classList.remove('caret'); return wait(450); })
-      .then(function () { l3.classList.add('caret'); return typeInto(l3, '> Um pacote criptografado foi encontrado para você, Emi.', 'soft', 24); })
+      .then(function () { l3.classList.add('caret'); return typeInto(l3, '> Um pacote criptografado foi encontrado para você.', 'soft', 24); })
       .then(function () { l3.classList.remove('caret'); return wait(300); })
       .then(function () { btn.classList.add('ready'); });
   }
